@@ -1,9 +1,9 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import { Volume2, Download, Sparkles } from "lucide-react";
-import html2canvas from "html2canvas";
+import { toPng } from 'html-to-image';
 
 interface NameEntry {
     engName: string;
@@ -29,22 +29,21 @@ export default function NameCard({ nameEntry }: NameCardProps) {
         }
     };
 
-    const handleSaveImage = async () => {
-        if (cardRef.current) {
-            try {
-                const canvas = await html2canvas(cardRef.current, {
-                    backgroundColor: null, // Transparent background
-                    scale: 2, // Higher resolution
-                });
-                const link = document.createElement("a");
-                link.download = `${nameEntry.engName}_Korean_Name.png`;
-                link.href = canvas.toDataURL("image/png");
-                link.click();
-            } catch (error) {
-                console.error("Failed to save image:", error);
-            }
+    const handleSaveImage = useCallback(async () => {
+        if (cardRef.current === null) {
+            return;
         }
-    };
+
+        try {
+            const dataUrl = await toPng(cardRef.current, { cacheBust: true });
+            const link = document.createElement('a');
+            link.download = `${nameEntry.engName}_Korean_Name.png`;
+            link.href = dataUrl;
+            link.click();
+        } catch (err) {
+            console.error('Failed to save image', err);
+        }
+    }, [cardRef, nameEntry.engName]);
 
     return (
         <div className="flex flex-col items-center space-y-8 w-full max-w-md">
