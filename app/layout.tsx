@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Gowun_Dodum } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-P5S9SB3FGT" />
     </html>
   );
 }
