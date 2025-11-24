@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Noto_Sans_KR } from "next/font/google";
+import { Playfair_Display, Gowun_Dodum } from "next/font/google";
 import "./globals.css";
 
-const notoSansKr = Noto_Sans_KR({
-  variable: "--font-noto-sans-kr",
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"],
+});
+
+const gowunDodum = Gowun_Dodum({
+  variable: "--font-gowun",
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${notoSansKr.variable} font-sans antialiased bg-gradient-to-br from-purple-100 via-pink-100 to-blue-100 min-h-screen`}
+        className={`${playfair.variable} ${gowunDodum.variable} font-sans antialiased bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 min-h-screen`}
       >
         {children}
       </body>
