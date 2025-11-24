@@ -16,6 +16,9 @@ const gowunDodum = Gowun_Dodum({
 export const metadata: Metadata = {
   title: "Korean Name Generator",
   description: "Generate your Korean name based on your English name.",
+  verification: {
+    google: "7IOk2xh4n4iy25W4jKfpDMFvsuRk5oc0CbgzI7F65XA",
+  },
 };
 
 export default function RootLayout({
