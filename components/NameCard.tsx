@@ -1,8 +1,6 @@
 "use client";
 
 import { useRef } from "react";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Volume2, Download, Sparkles } from "lucide-react";
 import html2canvas from "html2canvas";
@@ -51,48 +49,91 @@ export default function NameCard({ nameEntry }: NameCardProps) {
     return (
         <div className="flex flex-col items-center space-y-8 w-full max-w-md">
             {/* Card Section */}
-            <div ref={cardRef} className="w-full p-4 rounded-3xl bg-white/30 backdrop-blur-md border border-white/50 shadow-xl">
-                <Card className="border-0 bg-white/60 backdrop-blur-sm shadow-none rounded-2xl overflow-hidden">
-                    <div className="h-3 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-300" />
-                    <CardHeader className="text-center pt-10 pb-4 relative">
-                        <Sparkles className="absolute top-4 right-4 w-5 h-5 text-yellow-400 opacity-80" />
-                        <CardTitle className="text-5xl font-bold text-gray-800 tracking-tight font-[family-name:var(--font-kor)]">
+            <div
+                ref={cardRef}
+                className="w-full p-4 rounded-3xl shadow-xl"
+                style={{
+                    backgroundColor: "rgba(255, 255, 255, 0.3)",
+                    backdropFilter: "blur(12px)",
+                    borderColor: "rgba(255, 255, 255, 0.5)",
+                    borderWidth: "1px",
+                    borderStyle: "solid"
+                }}
+            >
+                <div
+                    className="rounded-2xl overflow-hidden"
+                    style={{
+                        backgroundColor: "rgba(255, 255, 255, 0.6)",
+                        boxShadow: "none",
+                        border: "none"
+                    }}
+                >
+                    <div
+                        className="h-3"
+                        style={{ background: "linear-gradient(to right, #f9a8d4, #d8b4fe, #a5b4fc)" }}
+                    />
+                    <div className="text-center pt-10 pb-4 relative px-6">
+                        <Sparkles
+                            className="absolute top-4 right-4 w-5 h-5 opacity-80"
+                            style={{ color: "#facc15" }}
+                        />
+                        <h2
+                            className="text-5xl font-bold tracking-tight font-[family-name:var(--font-kor)]"
+                            style={{ color: "#1f2937", margin: 0 }}
+                        >
                             {nameEntry.korName.split(" (")[0]}
-                        </CardTitle>
-                        <CardDescription className="text-2xl font-serif italic text-gray-600 mt-3 font-[family-name:var(--font-playfair)]">
+                        </h2>
+                        <p
+                            className="text-2xl font-serif italic mt-3 font-[family-name:var(--font-playfair)]"
+                            style={{ color: "#4b5563" }}
+                        >
                             {nameEntry.engName}
-                        </CardDescription>
+                        </p>
                         <button
                             onClick={handlePlayAudio}
-                            className="absolute top-1/2 right-8 transform -translate-y-1/2 p-2 rounded-full hover:bg-gray-100 transition-colors text-gray-500"
+                            className="absolute top-1/2 right-8 transform -translate-y-1/2 p-2 rounded-full hover:bg-gray-100 transition-colors"
+                            style={{ color: "#6b7280" }}
                             aria-label="Listen to pronunciation"
+                            data-html2canvas-ignore="true"
                         >
                             <Volume2 className="w-6 h-6" />
                         </button>
-                    </CardHeader>
-                    <CardContent className="space-y-8 pb-12 px-8">
+                    </div>
+                    <div className="space-y-8 pb-12 px-8">
                         <div className="text-center space-y-3">
-                            <h3 className="text-xs font-bold text-purple-500 uppercase tracking-widest">
+                            <h3
+                                className="text-xs font-bold uppercase tracking-widest"
+                                style={{ color: "#a855f7", margin: 0 }}
+                            >
                                 Meaning
                             </h3>
-                            <p className="text-xl font-medium text-gray-700 leading-relaxed font-serif italic">
+                            <p
+                                className="text-xl font-medium leading-relaxed font-serif italic"
+                                style={{ color: "#374151", margin: 0 }}
+                            >
                                 &quot;{nameEntry.meaning}&quot;
                             </p>
                         </div>
 
                         <div className="flex flex-wrap gap-2 justify-center">
                             {nameEntry.tags.map((tag) => (
-                                <Badge
+                                <span
                                     key={tag}
-                                    variant="secondary"
-                                    className="px-4 py-1.5 text-sm font-semibold bg-white/80 text-purple-600 hover:bg-purple-50 transition-colors rounded-full border border-purple-100 shadow-sm"
+                                    className="inline-flex items-center justify-center px-4 py-1.5 text-sm font-semibold rounded-full shadow-sm"
+                                    style={{
+                                        backgroundColor: "#faf5ff",
+                                        color: "#9333ea",
+                                        borderColor: "#f3e8ff",
+                                        borderWidth: "1px",
+                                        borderStyle: "solid"
+                                    }}
                                 >
                                     #{tag}
-                                </Badge>
+                                </span>
                             ))}
                         </div>
-                    </CardContent>
-                </Card>
+                    </div>
+                </div>
             </div>
 
             {/* Action Buttons */}
