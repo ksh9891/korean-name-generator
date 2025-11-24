@@ -1,8 +1,8 @@
 "use client";
 
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Volume2, Download, Sparkles } from "lucide-react";
+import { Volume2, Download, Sparkles, Copy, Check, ShoppingBag } from "lucide-react";
 import { toPng } from 'html-to-image';
 
 interface NameEntry {
@@ -18,6 +18,7 @@ interface NameCardProps {
 
 export default function NameCard({ nameEntry }: NameCardProps) {
     const cardRef = useRef<HTMLDivElement>(null);
+    const [isCopied, setIsCopied] = useState(false);
 
     const handlePlayAudio = () => {
         if ("speechSynthesis" in window) {
@@ -44,6 +45,13 @@ export default function NameCard({ nameEntry }: NameCardProps) {
             console.error('Failed to save image', err);
         }
     }, [cardRef, nameEntry.engName]);
+
+    const handleCopyName = () => {
+        const korName = nameEntry.korName.split(" (")[0];
+        navigator.clipboard.writeText(korName);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
+    };
 
     return (
         <div className="flex flex-col items-center space-y-8 w-full max-w-md">
@@ -145,22 +153,54 @@ export default function NameCard({ nameEntry }: NameCardProps) {
             </Button>
 
             {/* SEO & Content Section */}
-            <div className="text-center space-y-6 max-w-sm">
+            <div className="text-center space-y-6 max-w-sm w-full">
                 <p className="text-gray-600 leading-relaxed">
                     <span className="font-serif font-bold text-gray-800">{nameEntry.engName}</span> means{" "}
                     <span className="italic">{nameEntry.meaning}</span>. In Korean,{" "}
                     <span className="font-bold text-purple-600">{nameEntry.korName.split(" (")[0]}</span> creates a specialized vibe that reflects your unique personality.
                 </p>
 
-                <div className="pt-4 border-t border-gray-200/50">
-                    <a
-                        href="#"
-                        className="inline-block text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-80 transition-opacity uppercase tracking-wide border-b-2 border-pink-200 pb-0.5"
+                <div className="pt-6 border-t border-gray-200/50 w-full flex flex-col items-center space-y-3">
+                    {/* Button 1: Copy Name */}
+                    <Button
+                        onClick={handleCopyName}
+                        variant="outline"
+                        className={`w-full max-w-xs py-5 rounded-xl font-bold transition-all ${isCopied
+                            ? "bg-green-50 text-green-600 border-green-200 hover:bg-green-100"
+                            : "bg-white text-gray-700 border-gray-200 hover:bg-gray-50 hover:border-gray-300"
+                            }`}
                     >
-                        Get your Korean Name Necklace →
+                        {isCopied ? (
+                            <>
+                                <Check className="w-4 h-4 mr-2" />
+                                Copied!
+                            </>
+                        ) : (
+                            <>
+                                <Copy className="w-4 h-4 mr-2" />
+                                Copy Name for Order
+                            </>
+                        )}
+                    </Button>
+
+                    {/* Helper Text */}
+                    <p className="text-xs text-gray-500 font-medium px-4">
+                        Copy your name first, then paste it in the Etsy order box!
+                    </p>
+
+                    {/* Button 2: Shop on Etsy */}
+                    <a
+                        href="https://www.etsy.com/search?q=Custom%20Korean%20Name%20Necklace&ref=search_bar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full max-w-xs inline-flex items-center justify-center px-6 py-3 rounded-xl text-sm font-bold text-white bg-[#F1641E] hover:bg-[#D65215] transition-all transform hover:-translate-y-0.5 shadow-md hover:shadow-lg gap-2"
+                    >
+                        <ShoppingBag className="w-4 h-4" />
+                        Get Your Necklace on Etsy
                     </a>
                 </div>
             </div>
         </div>
+
     );
 }

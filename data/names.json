@@ -1,122 +1,1002 @@
 [
   {
-    "engName": "Olivia",
-    "korName": "지아 (Jia)",
+    "engName": "Emily",
+    "korName": "수민 (Su-min)",
+    "meaning": "Gentle and clever",
+    "tags": [
+      "Lovely",
+      "Friendly",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Jessica",
+    "korName": "유진 (Yu-jin)",
+    "meaning": "Precious and valuable",
+    "tags": [
+      "Modern",
+      "Bright",
+      "Outgoing"
+    ]
+  },
+  {
+    "engName": "Ashley",
+    "korName": "지은 (Ji-eun)",
+    "meaning": "Kind and gracious",
+    "tags": [
+      "Classic",
+      "Feminine",
+      "Soft"
+    ]
+  },
+  {
+    "engName": "Sarah",
+    "korName": "현주 (Hyun-ju)",
+    "meaning": "Virtuous and jewel-like",
+    "tags": [
+      "Traditional",
+      "Elegant",
+      "Calm"
+    ]
+  },
+  {
+    "engName": "Samantha",
+    "korName": "민지 (Min-ji)",
+    "meaning": "Clever and wise",
+    "tags": [
+      "Friendly",
+      "Common",
+      "Smart"
+    ]
+  },
+  {
+    "engName": "Taylor",
+    "korName": "하은 (Ha-eun)",
+    "meaning": "God's grace",
+    "tags": [
+      "Trendy",
+      "Unisex",
+      "Cool"
+    ]
+  },
+  {
+    "engName": "Hannah",
+    "korName": "예은 (Ye-eun)",
+    "meaning": "Artistic and kindness",
+    "tags": [
+      "Sweet",
+      "Pure",
+      "Innocent"
+    ]
+  },
+  {
+    "engName": "Alexis",
+    "korName": "서윤 (Seo-yun)",
+    "meaning": "Felicitous omen",
+    "tags": [
+      "Chic",
+      "Modern",
+      "Stylish"
+    ]
+  },
+  {
+    "engName": "Elizabeth",
+    "korName": "지영 (Ji-young)",
+    "meaning": "Wisdom and flower",
+    "tags": [
+      "Classic",
+      "Noble",
+      "Timeless"
+    ]
+  },
+  {
+    "engName": "Madison",
+    "korName": "지아 (Ji-a)",
     "meaning": "Wisdom and intellect",
-    "tags": ["Popular", "Modern"]
+    "tags": [
+      "Modern",
+      "Popular",
+      "Cute"
+    ]
+  },
+  {
+    "engName": "Megan",
+    "korName": "수진 (Su-jin)",
+    "meaning": "Genuine and precious",
+    "tags": [
+      "Cheerful",
+      "Active",
+      "Bright"
+    ]
+  },
+  {
+    "engName": "Kayla",
+    "korName": "나연 (Na-yeon)",
+    "meaning": "Graceful and beautiful",
+    "tags": [
+      "Lovely",
+      "Soft",
+      "Pretty"
+    ]
+  },
+  {
+    "engName": "Lauren",
+    "korName": "혜진 (Hye-jin)",
+    "meaning": "Intelligent and true",
+    "tags": [
+      "Smart",
+      "Sophisticated",
+      "Cool"
+    ]
+  },
+  {
+    "engName": "Alyssa",
+    "korName": "아영 (A-young)",
+    "meaning": "Refined and elegant",
+    "tags": [
+      "Charming",
+      "Delicate",
+      "Feminine"
+    ]
+  },
+  {
+    "engName": "Stephanie",
+    "korName": "미영 (Mi-young)",
+    "meaning": "Beautiful petal",
+    "tags": [
+      "Classic",
+      "Kind",
+      "Warm"
+    ]
+  },
+  {
+    "engName": "Nicole",
+    "korName": "소연 (So-yeon)",
+    "meaning": "Bright and beautiful",
+    "tags": [
+      "Stylish",
+      "Sharp",
+      "Confident"
+    ]
+  },
+  {
+    "engName": "Jennifer",
+    "korName": "은영 (Eun-young)",
+    "meaning": "Graceful and glorious",
+    "tags": [
+      "Traditional",
+      "Mature",
+      "Reliable"
+    ]
+  },
+  {
+    "engName": "Abigail",
+    "korName": "지수 (Ji-soo)",
+    "meaning": "Will and excellence",
+    "tags": [
+      "Smart",
+      "Clean",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Brianna",
+    "korName": "채원 (Chae-won)",
+    "meaning": "Origin of color",
+    "tags": [
+      "Artistic",
+      "Creative",
+      "Modern"
+    ]
+  },
+  {
+    "engName": "Olivia",
+    "korName": "서현 (Seo-hyun)",
+    "meaning": "Virtuous and worthy",
+    "tags": [
+      "Elegant",
+      "Calm",
+      "Graceful"
+    ]
   },
   {
     "engName": "Emma",
-    "korName": "서연 (Seo-yeon)",
-    "meaning": "Beautiful and graceful",
-    "tags": ["Elegant", "Traditional"]
+    "korName": "다은 (Da-eun)",
+    "meaning": "Much kindness",
+    "tags": [
+      "Cute",
+      "Friendly",
+      "Sweet"
+    ]
   },
   {
-    "engName": "Charlotte",
-    "korName": "민지 (Min-ji)",
-    "meaning": "Clever and wise",
-    "tags": ["Friendly", "Common"]
+    "engName": "Victoria",
+    "korName": "세리 (Se-ri)",
+    "meaning": "Establish and gain",
+    "tags": [
+      "Royal",
+      "Strong",
+      "Fancy"
+    ]
   },
   {
-    "engName": "Amelia",
-    "korName": "하은 (Ha-eun)",
-    "meaning": "God's grace",
-    "tags": ["Gentle", "Spiritual"]
+    "engName": "Rachel",
+    "korName": "혜원 (Hye-won)",
+    "meaning": "Graceful garden",
+    "tags": [
+      "Intelligent",
+      "Biblical",
+      "Gentle"
+    ]
+  },
+  {
+    "engName": "Amanda",
+    "korName": "사랑 (Sa-rang)",
+    "meaning": "Love",
+    "tags": [
+      "Lovely",
+      "Unique",
+      "Warm"
+    ]
+  },
+  {
+    "engName": "Courtney",
+    "korName": "유리 (Yu-ri)",
+    "meaning": "Glass / Crystal",
+    "tags": [
+      "Clear",
+      "Cool",
+      "Bright"
+    ]
+  },
+  {
+    "engName": "Grace",
+    "korName": "은혜 (Eun-hye)",
+    "meaning": "Grace and blessing",
+    "tags": [
+      "Religious",
+      "Pure",
+      "Kind"
+    ]
+  },
+  {
+    "engName": "Jasmine",
+    "korName": "송이 (Song-i)",
+    "meaning": "Flower cluster",
+    "tags": [
+      "Exotic",
+      "Pretty",
+      "Nature"
+    ]
+  },
+  {
+    "engName": "Morgan",
+    "korName": "지원 (Ji-won)",
+    "meaning": "Wisdom and best",
+    "tags": [
+      "Unisex",
+      "Strong",
+      "Active"
+    ]
+  },
+  {
+    "engName": "Julia",
+    "korName": "주희 (Ju-hee)",
+    "meaning": "Jewel and shine",
+    "tags": [
+      "Classic",
+      "Radiant",
+      "Joyful"
+    ]
+  },
+  {
+    "engName": "Chloe",
+    "korName": "보라 (Bo-ra)",
+    "meaning": "Purple",
+    "tags": [
+      "Unique",
+      "Vibrant",
+      "Trendy"
+    ]
+  },
+  {
+    "engName": "Natalie",
+    "korName": "나은 (Na-eun)",
+    "meaning": "Better than others",
+    "tags": [
+      "Lovely",
+      "Soft",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Rebecca",
+    "korName": "예진 (Ye-jin)",
+    "meaning": "Artistic and treasure",
+    "tags": [
+      "Traditional",
+      "Smart",
+      "Deep"
+    ]
   },
   {
     "engName": "Sophia",
     "korName": "지민 (Ji-min)",
-    "meaning": "Wisdom and gentleness",
-    "tags": ["Smart", "Kind"]
-  },
-  {
-    "engName": "Mia",
-    "korName": "수아 (Su-a)",
-    "meaning": "Elegant water",
-    "tags": ["Pure", "Simple"]
+    "meaning": "Wisdom and jade",
+    "tags": [
+      "Wise",
+      "Popular",
+      "Cute"
+    ]
   },
   {
     "engName": "Isabella",
-    "korName": "예은 (Ye-eun)",
-    "meaning": "Artistic grace",
-    "tags": ["Artistic", "Lovely"]
+    "korName": "아라 (A-ra)",
+    "meaning": "Be beautiful and good",
+    "tags": [
+      "Romantic",
+      "Ocean",
+      "Lovely"
+    ]
   },
   {
-    "engName": "Ava",
-    "korName": "나윤 (Na-yun)",
-    "meaning": "Delicate and soft",
-    "tags": ["Cute", "Soft"]
+    "engName": "Haley",
+    "korName": "해인 (Hae-in)",
+    "meaning": "Wisdom of the sea",
+    "tags": [
+      "Bright",
+      "Sunny",
+      "Clear"
+    ]
   },
   {
-    "engName": "Evelyn",
-    "korName": "지우 (Ji-woo)",
-    "meaning": "Will and universe",
-    "tags": ["Unisex", "Strong"]
+    "engName": "Anna",
+    "korName": "하나 (Ha-na)",
+    "meaning": "One / First",
+    "tags": [
+      "Simple",
+      "Classic",
+      "Strong"
+    ]
   },
   {
-    "engName": "Luna",
-    "korName": "다인 (Da-in)",
-    "meaning": "Many kindnesses",
-    "tags": ["Unique", "Mystical"]
+    "engName": "Sydney",
+    "korName": "시연 (Si-yeon)",
+    "meaning": "Show beautifully",
+    "tags": [
+      "City",
+      "Cool",
+      "Modern"
+    ]
   },
   {
-    "engName": "Harper",
-    "korName": "서현 (Seo-hyun)",
-    "meaning": "Virtuous and worthy",
-    "tags": ["Classic", "Respectable"]
+    "engName": "Destiny",
+    "korName": "운명 (Un-myung)",
+    "meaning": "Destiny",
+    "tags": [
+      "Unique",
+      "Strong",
+      "Mysterious"
+    ]
   },
   {
-    "engName": "Camila",
-    "korName": "유진 (Yu-jin)",
-    "meaning": "Precious and genuine",
-    "tags": ["Valuable", "Honest"]
+    "engName": "Kaitlyn",
+    "korName": "가은 (Ga-eun)",
+    "meaning": "Beautiful kindness",
+    "tags": [
+      "Sweet",
+      "Gentle",
+      "Friendly"
+    ]
   },
   {
-    "engName": "Sofia",
-    "korName": "수민 (Su-min)",
-    "meaning": "Excellent and clever",
-    "tags": ["Bright", "Active"]
+    "engName": "Savannah",
+    "korName": "수아 (Su-a)",
+    "meaning": "Elegant and beautiful",
+    "tags": [
+      "Nature",
+      "Free",
+      "Soft"
+    ]
   },
   {
-    "engName": "Scarlett",
-    "korName": "채원 (Chae-won)",
-    "meaning": "Origin of color",
-    "tags": ["Vibrant", "Creative"]
+    "engName": "Katherine",
+    "korName": "경미 (Kyung-mi)",
+    "meaning": "Honor and beauty",
+    "tags": [
+      "Classic",
+      "Formal",
+      "Respectful"
+    ]
   },
   {
-    "engName": "Elizabeth",
-    "korName": "지원 (Ji-won)",
-    "meaning": "Wisdom and beauty",
-    "tags": ["Regal", "Timeless"]
+    "engName": "Alexandra",
+    "korName": "아린 (A-rin)",
+    "meaning": "Beautiful jade",
+    "tags": [
+      "Strong",
+      "Noble",
+      "Charismatic"
+    ]
   },
   {
-    "engName": "Eleanor",
-    "korName": "혜진 (Hye-jin)",
-    "meaning": "Bright and precious",
-    "tags": ["Vintage", "Noble"]
+    "engName": "Allison",
+    "korName": "앨리 (Ally)",
+    "meaning": "Noble",
+    "tags": [
+      "Friendly",
+      "Cute",
+      "Simple"
+    ]
   },
   {
-    "engName": "Emily",
-    "korName": "은지 (Eun-ji)",
-    "meaning": "Kindness and wisdom",
-    "tags": ["Friendly", "Sweet"]
+    "engName": "Maria",
+    "korName": "마리 (Ma-ri)",
+    "meaning": "The best",
+    "tags": [
+      "Global",
+      "Simple",
+      "Pure"
+    ]
   },
   {
-    "engName": "Chloe",
-    "korName": "예진 (Ye-jin)",
-    "meaning": "Artistic truth",
-    "tags": ["Chic", "Stylish"]
+    "engName": "Danielle",
+    "korName": "다니 (Da-ni)",
+    "meaning": "Everything complete",
+    "tags": [
+      "Cute",
+      "Modern",
+      "Global"
+    ]
   },
   {
-    "engName": "Mila",
-    "korName": "다솜 (Da-som)",
-    "meaning": "Love (Native Korean)",
-    "tags": ["Lovely", "Native"]
+    "engName": "Jordan",
+    "korName": "재인 (Jae-in)",
+    "meaning": "Talented and benevolence",
+    "tags": [
+      "Unisex",
+      "Cool",
+      "Sporty"
+    ]
   },
   {
-    "engName": "Violet",
-    "korName": "보라 (Bo-ra)",
-    "meaning": "Purple (Native Korean)",
-    "tags": ["Colorful", "Nature"]
+    "engName": "Brooke",
+    "korName": "봄 (Bom)",
+    "meaning": "Spring",
+    "tags": [
+      "Nature",
+      "Fresh",
+      "Short"
+    ]
+  },
+  {
+    "engName": "Michelle",
+    "korName": "미소 (Mi-so)",
+    "meaning": "Smile",
+    "tags": [
+      "Happy",
+      "Warm",
+      "Sweet"
+    ]
+  },
+  {
+    "engName": "Sierra",
+    "korName": "산 (San)",
+    "meaning": "Mountain",
+    "tags": [
+      "Nature",
+      "Strong",
+      "Unique"
+    ]
+  },
+  {
+    "engName": "Kylie",
+    "korName": "가윤 (Ga-yun)",
+    "meaning": "Beautiful shine",
+    "tags": [
+      "Trendy",
+      "Pop",
+      "Star"
+    ]
+  },
+  {
+    "engName": "Michael",
+    "korName": "민수 (Min-su)",
+    "meaning": "Gentle and outstanding",
+    "tags": [
+      "Classic",
+      "Strong",
+      "Reliable"
+    ]
+  },
+  {
+    "engName": "Jacob",
+    "korName": "준호 (Jun-ho)",
+    "meaning": "Talented and grand",
+    "tags": [
+      "Popular",
+      "Friendly",
+      "Boy-next-door"
+    ]
+  },
+  {
+    "engName": "Matthew",
+    "korName": "우진 (Woo-jin)",
+    "meaning": "Treasure of the house",
+    "tags": [
+      "Smart",
+      "Trustworthy",
+      "Gentle"
+    ]
+  },
+  {
+    "engName": "Christopher",
+    "korName": "현우 (Hyun-woo)",
+    "meaning": "Wise and universe",
+    "tags": [
+      "Classic",
+      "Cool",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Joshua",
+    "korName": "지훈 (Ji-hoon)",
+    "meaning": "Wisdom and merit",
+    "tags": [
+      "Warm",
+      "Kind",
+      "Soft"
+    ]
+  },
+  {
+    "engName": "Austin",
+    "korName": "도윤 (Do-yun)",
+    "meaning": "Path and truth",
+    "tags": [
+      "Trendy",
+      "Cool",
+      "Energetic"
+    ]
+  },
+  {
+    "engName": "Nicholas",
+    "korName": "태양 (Tae-yang)",
+    "meaning": "Sun",
+    "tags": [
+      "Bright",
+      "Strong",
+      "Charismatic"
+    ]
+  },
+  {
+    "engName": "Tyler",
+    "korName": "태민 (Tae-min)",
+    "meaning": "Great people",
+    "tags": [
+      "Modern",
+      "Artistic",
+      "K-pop"
+    ]
+  },
+  {
+    "engName": "Joseph",
+    "korName": "요셉 (Yo-sep)",
+    "meaning": "God will add",
+    "tags": [
+      "Biblical",
+      "Classic",
+      "Faithful"
+    ]
+  },
+  {
+    "engName": "Daniel",
+    "korName": "다니엘 (Daniel)",
+    "meaning": "God is my judge",
+    "tags": [
+      "Global",
+      "Smart",
+      "Gentle"
+    ]
+  },
+  {
+    "engName": "Brandon",
+    "korName": "병찬 (Byung-chan)",
+    "meaning": "Bright and radiant",
+    "tags": [
+      "Strong",
+      "Active",
+      "Lively"
+    ]
+  },
+  {
+    "engName": "Andrew",
+    "korName": "안드 (Andre)",
+    "meaning": "Manly",
+    "tags": [
+      "Unique",
+      "Western",
+      "Strong"
+    ]
+  },
+  {
+    "engName": "William",
+    "korName": "윌 (Will)",
+    "meaning": "Protector",
+    "tags": [
+      "Simple",
+      "Global",
+      "Classic"
+    ]
+  },
+  {
+    "engName": "David",
+    "korName": "다윗 (Da-wit)",
+    "meaning": "Beloved",
+    "tags": [
+      "Biblical",
+      "Wise",
+      "King"
+    ]
+  },
+  {
+    "engName": "Zachary",
+    "korName": "재석 (Jae-seok)",
+    "meaning": "Strong foundation",
+    "tags": [
+      "Funny",
+      "Friendly",
+      "Capable"
+    ]
+  },
+  {
+    "engName": "Ryan",
+    "korName": "라이언 (Ryan)",
+    "meaning": "Little King",
+    "tags": [
+      "Global",
+      "Cute",
+      "Character"
+    ]
+  },
+  {
+    "engName": "John",
+    "korName": "요한 (Yo-han)",
+    "meaning": "God is gracious",
+    "tags": [
+      "Classic",
+      "Timeless",
+      "Holy"
+    ]
+  },
+  {
+    "engName": "Justin",
+    "korName": "정국 (Jung-kook)",
+    "meaning": "Pillar of the nation",
+    "tags": [
+      "K-pop",
+      "Star",
+      "Famous"
+    ]
+  },
+  {
+    "engName": "James",
+    "korName": "지성 (Ji-sung)",
+    "meaning": "Wisdom and sincerity",
+    "tags": [
+      "Classic",
+      "Smart",
+      "Leader"
+    ]
+  },
+  {
+    "engName": "Anthony",
+    "korName": "태형 (Tae-hyung)",
+    "meaning": "Big prosperity",
+    "tags": [
+      "Cool",
+      "Handsome",
+      "K-pop"
+    ]
+  },
+  {
+    "engName": "Robert",
+    "korName": "로운 (Ro-woon)",
+    "meaning": "Wise and gracious",
+    "tags": [
+      "Trendy",
+      "Handsome",
+      "Tall"
+    ]
+  },
+  {
+    "engName": "Jonathan",
+    "korName": "준 (Jun)",
+    "meaning": "Talented",
+    "tags": [
+      "Simple",
+      "Cool",
+      "Modern"
+    ]
+  },
+  {
+    "engName": "Christian",
+    "korName": "성민 (Seong-min)",
+    "meaning": "Holy and clever",
+    "tags": [
+      "Faithful",
+      "Gentle",
+      "Kind"
+    ]
+  },
+  {
+    "engName": "Alexander",
+    "korName": "알렉 (Alec)",
+    "meaning": "Defender of men",
+    "tags": [
+      "Strong",
+      "Global",
+      "Unique"
+    ]
+  },
+  {
+    "engName": "Noah",
+    "korName": "시우 (Si-woo)",
+    "meaning": "Divine rain",
+    "tags": [
+      "Soft",
+      "Trendy",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Samuel",
+    "korName": "샘 (Sam)",
+    "meaning": "God has heard",
+    "tags": [
+      "Friendly",
+      "Simple",
+      "Global"
+    ]
+  },
+  {
+    "engName": "Dylan",
+    "korName": "도현 (Do-hyun)",
+    "meaning": "Virtuous path",
+    "tags": [
+      "Cool",
+      "Modern",
+      "Chic"
+    ]
+  },
+  {
+    "engName": "Nathan",
+    "korName": "나단 (Na-dan)",
+    "meaning": "Gift from God",
+    "tags": [
+      "Smart",
+      "Unique",
+      "Biblical"
+    ]
+  },
+  {
+    "engName": "Benjamin",
+    "korName": "민재 (Min-jae)",
+    "meaning": "Talented and bright",
+    "tags": [
+      "Smart",
+      "Cute",
+      "Friendly"
+    ]
+  },
+  {
+    "engName": "Logan",
+    "korName": "로건 (Logan)",
+    "meaning": "Hollow",
+    "tags": [
+      "Modern",
+      "Global",
+      "Strong"
+    ]
+  },
+  {
+    "engName": "Ethan",
+    "korName": "이산 (Yi-san)",
+    "meaning": "Mountain-like",
+    "tags": [
+      "Historic",
+      "Noble",
+      "Deep"
+    ]
+  },
+  {
+    "engName": "Kevin",
+    "korName": "경수 (Kyung-soo)",
+    "meaning": "Respect and protect",
+    "tags": [
+      "Cute",
+      "Friendly",
+      "Common"
+    ]
+  },
+  {
+    "engName": "Brian",
+    "korName": "보검 (Bo-gum)",
+    "meaning": "Precious sword",
+    "tags": [
+      "Handsome",
+      "Noble",
+      "Star"
+    ]
+  },
+  {
+    "engName": "Steven",
+    "korName": "승민 (Seung-min)",
+    "meaning": "Victory and clever",
+    "tags": [
+      "Smart",
+      "Active",
+      "Winner"
+    ]
+  },
+  {
+    "engName": "Thomas",
+    "korName": "태호 (Tae-ho)",
+    "meaning": "Great and vast",
+    "tags": [
+      "Classic",
+      "Big",
+      "Reliable"
+    ]
+  },
+  {
+    "engName": "Caleb",
+    "korName": "강인 (Kang-in)",
+    "meaning": "Strong benevolence",
+    "tags": [
+      "Strong",
+      "Manly",
+      "Tough"
+    ]
+  },
+  {
+    "engName": "Timothy",
+    "korName": "태모 (Tae-mo)",
+    "meaning": "Great model",
+    "tags": [
+      "Unique",
+      "Classic",
+      "Serious"
+    ]
+  },
+  {
+    "engName": "Elijah",
+    "korName": "이준 (Yi-jun)",
+    "meaning": "Talented person",
+    "tags": [
+      "Trendy",
+      "Popular",
+      "Smart"
+    ]
+  },
+  {
+    "engName": "Gabriel",
+    "korName": "가람 (Ga-ram)",
+    "meaning": "River (Native Korean)",
+    "tags": [
+      "Nature",
+      "Soft",
+      "Pure"
+    ]
+  },
+  {
+    "engName": "Jason",
+    "korName": "재성 (Jae-sung)",
+    "meaning": "Talent and sincerity",
+    "tags": [
+      "Classic",
+      "Smart",
+      "Active"
+    ]
+  },
+  {
+    "engName": "Cameron",
+    "korName": "카이 (Kai)",
+    "meaning": "Open / Victory",
+    "tags": [
+      "K-pop",
+      "Cool",
+      "Global"
+    ]
+  },
+  {
+    "engName": "Hunter",
+    "korName": "한터 (Han-teo)",
+    "meaning": "Big foundation",
+    "tags": [
+      "Unique",
+      "Strong",
+      "Wild"
+    ]
+  },
+  {
+    "engName": "Luke",
+    "korName": "욱 (Wook)",
+    "meaning": "Rising sun",
+    "tags": [
+      "Short",
+      "Strong",
+      "Cool"
+    ]
+  },
+  {
+    "engName": "Jack",
+    "korName": "재현 (Jae-hyun)",
+    "meaning": "Talented and wise",
+    "tags": [
+      "Popular",
+      "Handsome",
+      "Modern"
+    ]
+  },
+  {
+    "engName": "Isaac",
+    "korName": "이삭 (I-sak)",
+    "meaning": "Laughter",
+    "tags": [
+      "Biblical",
+      "Happy",
+      "Joy"
+    ]
+  },
+  {
+    "engName": "Mason",
+    "korName": "민성 (Min-sung)",
+    "meaning": "Clever and sincere",
+    "tags": [
+      "Gentle",
+      "Smart",
+      "Orderly"
+    ]
+  },
+  {
+    "engName": "Aaron",
+    "korName": "아론 (A-ron)",
+    "meaning": "High mountain",
+    "tags": [
+      "Global",
+      "Cool",
+      "Biblical"
+    ]
+  },
+  {
+    "engName": "Evan",
+    "korName": "은우 (Eun-woo)",
+    "meaning": "Grace and universe",
+    "tags": [
+      "Handsome",
+      "Trendy",
+      "Soft"
+    ]
+  },
+  {
+    "engName": "Connor",
+    "korName": "건우 (Gun-woo)",
+    "meaning": "Construct the universe",
+    "tags": [
+      "Strong",
+      "Manly",
+      "Popular"
+    ]
+  },
+  {
+    "engName": "Liam",
+    "korName": "림 (Lim)",
+    "meaning": "Forest",
+    "tags": [
+      "Simple",
+      "Nature",
+      "Quiet"
+    ]
   }
 ]
